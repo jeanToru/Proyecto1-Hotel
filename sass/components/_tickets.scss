@@ -1,0 +1,23 @@
+.wrapper-description {
+  height: 426px;
+  margin-bottom: 35px;
+  width: 1320px;
+}
+.img-destinations {
+  border-radius: 20px 0px 0px 20px;
+  float: left;
+  width: 705px;
+}
+.description-destination {
+  background-color: $white;
+  float: left;
+  height: 286px;
+  padding: 20px 80px 20px 40px;
+  width: 495px;
+}
+.description-destination h2, .description-destination p {
+  margin-bottom: 50px;
+}
+.description-destination button {
+  float: right;
+}
