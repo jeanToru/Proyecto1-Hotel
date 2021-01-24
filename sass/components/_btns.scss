@@ -1,0 +1,31 @@
+button {
+  cursor: pointer;
+  font-family: $buttons;
+  font-size: 20px;
+  justify-content: center;
+  outline: none;
+  text-transform: capitalize;
+}
+
+
+.nav-header {
+  button {
+    background-color: $navyBlue;
+    border: 1px solid $lightGrey;
+    border-radius: 25px;
+    color: $lightGrey;
+    padding: 10px 20px;
+    &:hover{
+      background-color: white;
+      color: $navyBlue;
+    }
+  }
+}
+
+.orange-btn {
+  background-color: $salmon;
+  border: none;
+  border-radius: 10px;
+  color: $ligth;
+  padding: 8px 30px;
+}
