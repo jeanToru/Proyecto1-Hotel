@@ -1,15 +1,15 @@
-.navegacion span a {
+.navegation span a {
   color: #000;
   font-size: 20px;
   text-decoration: none;
   font-family: $titles;
 }
 
-.navegacion span a:hover {
+.navegation span a:hover {
   color: #000;
   text-decoration: underline;
 }
 
-.navegacion span a + a{
+.navegation span a + a{
   margin-left: 1%;
 }

@@ -307,6 +307,11 @@ template {
 [hidden] {
   display: none; }
 
+.wrapper {
+  background-color: #EFF0EF;
+  width: 100%;
+  height: 100%; }
+
 button {
   cursor: pointer;
   font-family: "Poppins", sans-serif;
@@ -332,15 +337,96 @@ button {
   color: #FFFFFF;
   padding: 8px 30px; }
 
-.navegacion span a {
+.navegation span a {
   color: #000;
   font-size: 20px;
   text-decoration: none;
   font-family: "Poppins", sans-serif; }
 
-.navegacion span a:hover {
+.navegation span a:hover {
   color: #000;
   text-decoration: underline; }
 
-.navegacion span a + a {
+.navegation span a + a {
   margin-left: 1%; }
+
+.wrapper-description {
+  height: 426px;
+  margin-bottom: 35px;
+  width: 1320px; }
+
+.img-destinations {
+  border-radius: 20px 0px 0px 20px;
+  float: left;
+  width: 705px; }
+
+.description-destination {
+  background-color: #FFFFFF;
+  float: left;
+  height: 286px;
+  padding: 20px 80px 20px 40px;
+  width: 495px; }
+
+.description-destination h2, .description-destination p {
+  margin-bottom: 50px; }
+
+.description-destination button {
+  float: right; }
+
+.gallery {
+  width: 600px; }
+
+.gallery-content {
+  height: 444px;
+  margin-bottom: 20px;
+  width: 600px; }
+
+#big-image {
+  border-radius: 2%;
+  height: 444px;
+  width: 100%; }
+
+.wrapper-gallery {
+  margin-left: 0px; }
+
+.ocultar {
+  margin-left: -103%; }
+
+.gallery-list {
+  display: flex;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  width: 498px; }
+
+.gallery-list li {
+  height: 100%;
+  width: 250px; }
+
+.gallery-list li + li {
+  margin-left: 15px; }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+.gallery-list-img img {
+  height: 88px;
+  width: 156px; }
+
+img {
+  border-radius: 10px; }
+
+.gallery-prev {
+  float: left;
+  margin: 0px;
+  overflow: hidden;
+  padding: 0px; }
+
+.flechas {
+  float: left;
+  height: 23px;
+  margin: 4px;
+  padding-top: 25px;
+  width: 42px; }
