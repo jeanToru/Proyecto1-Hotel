@@ -4,6 +4,7 @@ button {
   font-size: 20px;
   justify-content: center;
   outline: none;
+  text-transform: capitalize;
 }
 
 
@@ -22,7 +23,6 @@ button {
 }
 
 .orange-btn {
-  text-transform: capitalize;
   background-color: $salmon;
   border: none;
   border-radius: 10px;
