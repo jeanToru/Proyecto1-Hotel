@@ -312,7 +312,8 @@ button {
   font-family: "Poppins", sans-serif;
   font-size: 20px;
   justify-content: center;
-  outline: none; }
+  outline: none;
+  text-transform: capitalize; }
 
 .nav-header button {
   background-color: #121215;
@@ -325,7 +326,6 @@ button {
     color: #121215; }
 
 .orange-btn {
-  text-transform: capitalize;
   background-color: #F89345;
   border: none;
   border-radius: 10px;
