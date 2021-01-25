@@ -3,7 +3,7 @@ const mini = document.querySelectorAll('.miniatura');
 const bigImage = document.getElementById('big-image');
 const atras = document.getElementById('atras');
 const adelante = document.getElementById('adelante');
-const contenido = document.querySelector('oculto');
+const contenido = document.querySelector('.oculto');
 
 // Funcion principal de la Galeria
 for (let i = 0; i < mini.length; i += 1) {

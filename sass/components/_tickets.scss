@@ -1,23 +1,22 @@
-/*.wrapper-description {
-  height: 426px;
-  margin-bottom: 35px;
-  width: 1320px;
-}*/
+.tikets-background{
+  margin-bottom: 40px;
+}
 .img-destinations {
   border-radius: 20px 0px 0px 20px;
   float: left;
-  width: 705px;
+  width: 700px;
 }
 .description-destination {
   background-color: $ligth;
   float: left;
-  height: 286px;
+  height: 390px;
   padding: 20px 80px 20px 40px;
-  width: 495px;
+  width: 380px;
 }
 .description-destination h2, .description-destination p {
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 .description-destination button {
   float: right;
 }
+
