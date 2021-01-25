@@ -9,14 +9,25 @@ button {
 
 
 .nav-header {
+  float: left;
+  width: 30%;
+
   button {
     background-color: $navyBlue;
     border: 1px solid $lightGrey;
     border-radius: 25px;
-    color: $lightGrey;
+    margin-left: 40%;
+    margin-top: 10px;
     padding: 10px 20px;
     &:hover{
       background-color: white;
+    }
+  }
+
+  button a {
+    text-decoration: none;
+    color: white;
+    &:hover{
       color: $navyBlue;
     }
   }

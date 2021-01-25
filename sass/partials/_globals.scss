@@ -8,3 +8,29 @@
   margin: 0 auto;
   width: 1200px;
 }
+
+.header {
+  background-color: rgba(43,48,22,0.7);
+  position: fixed;
+  width: 100%;
+}
+
+.logo {
+  float: left;
+  margin-top: 10px;
+  width: 70%;
+}
+
+.footer {
+  background-color: $mossGreen;
+  padding: 30px;
+  width: 100%;
+
+  p {
+    color: $ligth;
+    display: inline-block;
+    margin: 0;
+    position: absolute ;
+    right: 30px;
+  }
+}
