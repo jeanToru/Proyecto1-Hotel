@@ -1,0 +1,47 @@
+.bedroom {
+
+  background-color: $ligth;
+  width: 100%;
+
+  .imageRoom {
+    border-radius: 50px 0px 0px 0px;
+    width: 100%;
+  }
+
+  .cardRoom {
+    width: 390px;
+  }
+
+  h2 {
+    color: $brick;
+    font-family: $titles;
+    font-size: 50px;
+    margin-left: 350px;
+  }
+
+  h4 {
+    color: $navyBlue;
+    font-family: $titles;
+    font-size: 20px;
+    line-height: 30px;
+    width: 280px;
+  }
+
+  .price {
+    color: $salmon;
+    font-family: $titles;
+    font-size: 20px;
+    line-height: 30px;
+    float: left;
+  }
+
+  p {
+    color: $salmon;
+    font-family: $titles;
+    font-size: 16px;
+    line-height: 30px;
+    float: left;
+  }
+
+}
+
