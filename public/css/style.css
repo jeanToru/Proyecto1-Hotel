@@ -316,6 +316,27 @@ template {
   margin: 0 auto;
   width: 1200px; }
 
+.header {
+  background-color: rgba(43, 48, 22, 0.7);
+  position: fixed;
+  width: 100%; }
+
+.logo {
+  float: left;
+  margin-top: 10px;
+  width: 70%; }
+
+.footer {
+  background-color: #101304;
+  padding: 30px;
+  width: 100%; }
+  .footer p {
+    color: #FFFFFF;
+    display: inline-block;
+    margin: 0;
+    position: absolute;
+    right: 30px; }
+
 button {
   cursor: pointer;
   font-family: "Poppins", sans-serif;
@@ -324,15 +345,23 @@ button {
   outline: none;
   text-transform: capitalize; }
 
-.nav-header button {
-  background-color: #121215;
-  border: 1px solid #EFF0EF;
-  border-radius: 25px;
-  color: #EFF0EF;
-  padding: 10px 20px; }
-  .nav-header button:hover {
-    background-color: white;
-    color: #121215; }
+.nav-header {
+  float: left;
+  width: 30%; }
+  .nav-header button {
+    background-color: #121215;
+    border: 1px solid #EFF0EF;
+    border-radius: 25px;
+    margin-left: 40%;
+    margin-top: 10px;
+    padding: 10px 20px; }
+    .nav-header button:hover {
+      background-color: white; }
+  .nav-header button a {
+    text-decoration: none;
+    color: white; }
+    .nav-header button a:hover {
+      color: #121215; }
 
 .orange-btn {
   background-color: #F89345;
