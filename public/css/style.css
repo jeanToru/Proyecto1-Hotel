@@ -354,11 +354,11 @@ button {
 .navegation span a + a {
   margin-left: 1%; }
 
-.wrapper-description {
+/*.wrapper-description {
   height: 426px;
   margin-bottom: 35px;
-  width: 1320px; }
-
+  width: 1320px;
+}*/
 .img-destinations {
   border-radius: 20px 0px 0px 20px;
   float: left;
