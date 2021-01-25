@@ -383,25 +383,23 @@ button {
 .navegation span a + a {
   margin-left: 1%; }
 
-/*.wrapper-description {
-  height: 426px;
-  margin-bottom: 35px;
-  width: 1320px;
-}*/
+.tikets-background {
+  margin-bottom: 40px; }
+
 .img-destinations {
   border-radius: 20px 0px 0px 20px;
   float: left;
-  width: 705px; }
+  width: 700px; }
 
 .description-destination {
   background-color: #FFFFFF;
   float: left;
-  height: 286px;
+  height: 390px;
   padding: 20px 80px 20px 40px;
-  width: 495px; }
+  width: 380px; }
 
 .description-destination h2, .description-destination p {
-  margin-bottom: 50px; }
+  margin-bottom: 80px; }
 
 .description-destination button {
   float: right; }
@@ -423,7 +421,7 @@ button {
   margin-left: 0px; }
 
 .ocultar {
-  margin-left: -103%; }
+  margin-left: -68.8%; }
 
 .gallery-list {
   display: flex;
@@ -463,3 +461,35 @@ img {
   margin: 4px;
   padding-top: 25px;
   width: 42px; }
+
+.bedroom {
+  background-color: #FFFFFF;
+  width: 100%; }
+  .bedroom .imageRoom {
+    border-radius: 50px 0px 0px 0px;
+    width: 100%; }
+  .bedroom .cardRoom {
+    width: 390px; }
+  .bedroom h2 {
+    color: #AC3501;
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+    margin-left: 350px; }
+  .bedroom h4 {
+    color: #121215;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    width: 280px; }
+  .bedroom .price {
+    color: #F89345;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    float: left; }
+  .bedroom p {
+    color: #F89345;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    float: left; }
