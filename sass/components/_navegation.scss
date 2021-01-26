@@ -1,15 +1,26 @@
-.navegation span a {
-  color: #000;
-  font-size: 20px;
-  text-decoration: none;
-  font-family: $titles;
+.navegation  {
+  a {
+    color: #000;
+    font-family: $titles;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    &:hover {
+      color: #000;
+      text-decoration: underline;
+    }
+    &:last-child {
+      color: $salmon;
+    }
+  }
 }
 
-.navegation span a:hover {
-  color: #000;
-  text-decoration: underline;
+.navegation {
+  margin-bottom: 50px;
+  img {
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 1%;
+  }
 }
 
-.navegation span a + a{
-  margin-left: 1%;
-}
