@@ -1,0 +1,23 @@
+.hotels {
+  display: inline-block;
+  width: 390px;
+  height: 430px;
+}
+
+.hotels + .hotels {
+  margin-left: 11px;
+}
+
+.content-cardSmall {
+  h3 {
+    margin-bottom: 10px;
+  }
+
+ p {
+   display: inline;
+ }
+
+ button {
+   margin-left: 26%;
+ }
+}
