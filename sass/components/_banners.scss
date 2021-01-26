@@ -9,8 +9,17 @@
 }
 
 #banner-index {
-background-image: url("../../img/mini-banner-home.jpg");
+  background-image: url("../../img/mini-banner-home.jpg");
+  display: inline-block;
+  text-align: center;
+
+  h2 {
+    color: $lightGrey;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
 }
+
 
 #banner-destinations {
   background-image: url("../../img/destinations-banner.jpg");
