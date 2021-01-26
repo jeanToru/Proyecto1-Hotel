@@ -1,7 +1,8 @@
 .hotels {
   display: inline-block;
-  width: 390px;
   height: 430px;
+  margin-bottom: 70px;
+  width: 390px;
 }
 
 .hotels + .hotels {
@@ -20,4 +21,22 @@
  button {
    margin-left: 26%;
  }
+}
+
+/*card large*/
+.card-large {
+  display: inline-block;
+  height: 600px;
+  margin-bottom: 70px;
+  position: relative;
+  width: 390px;
+
+  button {
+    position: absolute;
+    right: 0;
+    }
+}
+
+.card-large+ .card-large {
+  margin-left: 11px;
 }

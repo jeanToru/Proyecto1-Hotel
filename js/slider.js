@@ -1,4 +1,4 @@
-// Guardamos las imagenes y su información en constantes,
+// Guardamos las imagenes en constante,
 // tambien agregamos una constate para manejar los dot
 
 const images = document.querySelectorAll('.image-slide');
@@ -14,31 +14,6 @@ images.forEach((img) => {
 // Removemos la clase para ocultar a lo que
 // se va a mostrar en pantalla de primera mano
 images[0].classList.remove('js-content-hidden');
-
-// con document llamamos los arrow que contienen la imagen de derecha e izquierda,
-// la intención de hacerlo
-// asi es poder identificar cuando ocurre el evento de click
-// y aplicar la función que itera con el index
-
-document.getElementById('arrow2').addEventListener('click', function (event) {
-  changeImage2(true);
-});
-document.getElementById('arrow1').addEventListener('click', function (event) {
-  changeImage2(false);
-});
-
-// la función changeImageByDot permite que los dots
-//  se salten el index y se activen de acuedo a cual se le da click,
-// tambien oculta al que se activa cuando se da click, esta función esta
-// activa directamente en el index.
-
-function changeImageByDot (index, obj) {
-  for (let i = 0; i < dots.length; i++) {
-    dots[i].classList.remove('dot-active');
-  }
-  obj.classList.add('dot-active');
-  changeImage2 (null, index);
-}
 
 // La función chaImage2 activa los botones de siguiente,
 //  lo que hace exactamente esta función es utilizar el index
@@ -69,6 +44,34 @@ function changeImage2(right, index = null) {
   }
   images[position].classList.remove('js-content-hidden');
   dots[position].classList.add('dot-active');
+}
+
+// con document llamamos los arrow que contienen la imagen de derecha e izquierda,
+// la intención de hacerlo
+// asi es poder identificar cuando ocurre el evento de click
+// y aplicar la función que itera con el index
+
+document.getElementById('arrow2').addEventListener('click', function () {
+  changeImage2(true);
+});
+document.getElementById('arrow1').addEventListener('click', function () {
+  changeImage2(false);
+});
+
+// la función changeImageByDot permite que los dots
+//  se salten el index y se activen de acuedo a cual se le da click,
+// tambien oculta al que se activa cuando se da click, esta función esta
+// activa directamente en el index.
+
+function changeImageByDot (index, obj) {
+  dots.forEach((point) => {
+    point.classList.remove('dot-active');
+  });
+  // for (let i = 0; i < dots.length; i++) {
+  //   dots[i].classList.remove('dot-active');
+  // }
+  obj.classList.add('dot-active');
+  changeImage2 (null, index);
 }
 
 function changeImage() {
