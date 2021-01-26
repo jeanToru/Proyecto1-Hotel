@@ -1,5 +1,5 @@
 .gallery{
-  width: 600px;
+  width: 610px;
 }
 .gallery-content{
   height: 444px;
@@ -54,8 +54,28 @@ img{
 }
 .flechas{
   float: left;
-  height: 23px;
   margin: 4px;
-  padding-top: 25px;
-  width: 42px;
+}
+.gallery-js{
+  float: left;
+  padding-left: 80px;
+}
+.info-destiny{
+  float: left;
+  width: 490px;
+}
+.info-destiny p{
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.content-destinatinos{
+  padding-bottom: 40px;
+  background-color: $ligth;
+  margin-bottom: 50px;
+}
+.content-destinatinos h2{
+  padding-top: 60px;
+  padding-left: 80px;
+  padding-bottom: 30px;
 }

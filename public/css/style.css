@@ -338,6 +338,9 @@ p {
 .h4-bedroom {
   color: #F89345; }
 
+.salmon {
+  color: #F89345; }
+
 .wrapper {
   background-color: #EFF0EF;
   height: 100%;
@@ -510,6 +513,9 @@ button {
   right: 5%;
   z-index: 2; }
 
+.js-content-hidden {
+  display: none; }
+
 .navegation a {
   color: #000;
   font-family: "Poppins", sans-serif;
@@ -523,6 +529,7 @@ button {
     color: #F89345; }
 
 .navegation {
+  margin-top: 50px;
   margin-bottom: 50px; }
   .navegation img {
     margin-left: 1%;
@@ -551,7 +558,7 @@ button {
   float: right; }
 
 .gallery {
-  width: 600px; }
+  width: 610px; }
 
 .gallery-content {
   height: 444px;
@@ -603,65 +610,80 @@ img {
 
 .flechas {
   float: left;
-  height: 23px;
-  margin: 4px;
-  padding-top: 25px;
-  width: 42px; }
+  margin: 4px; }
+
+.gallery-js {
+  float: left;
+  padding-left: 80px; }
+
+.info-destiny {
+  float: left;
+  width: 490px; }
+
+.info-destiny p {
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px; }
+
+.content-destinatinos {
+  padding-bottom: 40px;
+  background-color: #FFFFFF;
+  margin-bottom: 50px; }
+
+.content-destinatinos h2 {
+  padding-top: 60px;
+  padding-left: 80px;
+  padding-bottom: 30px; }
 
 .bedRoom {
   background-color: #FFFFFF;
+  margin-bottom: 40px;
   width: 100%; }
-  .bedRoom .imageRoom {
-    border-radius: 50px 0px 0px 0px;
-    width: 100%; }
-  .bedRoom .bedRooms {
-    float: left;
-    overflow: hidden; }
-  .bedRoom .roomList {
-    display: flex;
-    float: left;
-    width: 1198px; }
-  .bedRoom .cardBedroom {
-    margin-left: 308px; }
-  .bedRoom .arrowRoom {
-    float: left;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding-top: 160px; }
-  .bedRoom .cardRoom {
-    display: inline flow-root;
-    width: 390px; }
-  .bedRoom .cardRoom + .cardRoom {
-    margin-left: 14px; }
   .bedRoom h2 {
-    color: #AC3501;
-    font-family: "Poppins", sans-serif;
-    font-size: 50px;
     margin-left: 350px; }
   .bedRoom h4 {
-    color: #121215;
-    font-family: "Poppins", sans-serif;
-    font-size: 20px;
     font-weight: 500;
     line-height: 30px;
     width: 280px; }
+  .bedRoom p {
+    float: left;
+    line-height: 30px;
+    margin-top: -86px;
+    margin-left: 350px; }
   .bedRoom .price {
-    color: #F89345;
-    font-family: "Poppins", sans-serif;
-    font-size: 20px;
     float: left;
     line-height: 30px;
     margin-top: -50px;
     margin-left: 338px; }
-  .bedRoom p {
-    color: #F89345;
-    font-family: "Poppins", sans-serif;
-    font-size: 16px;
-    float: left;
-    line-height: 30px;
-    float: left; 
-    margin-top: -86px;
-    margin-left: 350px; }
+
+.imageRoom {
+  border-radius: 50px 0px 0px 0px;
+  width: 100%; }
+
+.bedRooms {
+  float: left;
+  overflow: hidden; }
+
+.roomList {
+  display: flex;
+  float: left;
+  width: 1198px; }
+
+.cardBedroom {
+  margin-left: 10%; }
+
+.arrowRoom {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 160px; }
+
+.cardRoom {
+  display: inline flow-root;
+  width: 390px; }
+
+.cardRoom + .cardRoom {
+  margin-left: 14px; }
 
 .hide {
   margin-left: -67.55%; }
