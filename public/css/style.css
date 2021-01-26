@@ -316,6 +316,18 @@ template {
   margin: 0 auto;
   width: 1200px; }
 
+.unic {
+  left: 50px;
+  margin-top: 900px;
+  position: absolute;
+  right: 50px;
+  z-index: 3; }
+
+.unic-2 {
+  margin-top: 2500px;
+  position: absolute;
+  z-index: 3; }
+
 .header {
   background-color: rgba(43, 48, 22, 0.7);
   position: fixed;
@@ -374,6 +386,64 @@ button {
   .orange-btn a {
     text-decoration: none;
     color: #FFFFFF; }
+
+h1 {
+  color: #FFFFFF;
+  font-family: "Rammetto One", cursive;
+  font-size: 65px;
+  left: 510px;
+  position: absolute;
+  top: 650px;
+  z-index: 2; }
+
+.container-slide {
+  margin: 0;
+  position: relative; }
+
+.image-slide {
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0px;
+  z-index: 1; }
+  .image-slide img {
+    max-width: 100%;
+    width: 100%; }
+
+.slide-dot {
+  width: 13%;
+  left: 850px;
+  z-index: 5;
+  position: absolute;
+  top: 790px; }
+  .slide-dot button {
+    float: left;
+    margin-right: 10px;
+    border-style: none;
+    padding: 8px;
+    background-color: #F89345;
+    border-radius: 15px; }
+  .slide-dot button:hover {
+    background-color: #8a8282; }
+
+.dot-active {
+  background-color: #FFFFFF; }
+
+/*arrows*/
+.arrows img {
+  width: 5.3%; }
+
+#arrow1 {
+  position: absolute;
+  top: 360px;
+  left: 120px;
+  z-index: 2; }
+
+#arrow2 {
+  position: absolute;
+  top: 360px;
+  right: 120px;
+  z-index: 2; }
 
 .navegation span a {
   color: #000;

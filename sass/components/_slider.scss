@@ -1,0 +1,67 @@
+h1 {
+  color: $ligth;
+  font-family: $cards;
+  font-size: 65px;
+  left: 510px;
+  position: absolute;
+  top: 650px;
+  z-index: 2;
+}
+
+.container-slide {
+  margin: 0;
+  position: relative;
+}
+
+.image-slide {
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0px;
+  z-index: 1;
+  img {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+.slide-dot {
+  width: 13%;
+  left: 850px;
+  z-index: 5;
+  position: absolute;
+  top: 790px;
+  button {
+    float: left;
+    margin-right: 10px;
+    border-style: none;
+    padding: 8px;
+    background-color: $salmon;
+    border-radius: 15px; }
+    button:hover {
+      background-color: #8a8282; }
+}
+
+.dot-active {
+  background-color: $ligth; }
+
+/*arrows*/
+
+.arrows {
+  img {
+    width: 5.3%;
+  }
+}
+#arrow1 {
+  position: absolute;
+  top: 360px;
+  left: 120px;
+  z-index: 2;
+}
+
+#arrow2 {
+  position: absolute;
+  top: 360px;
+  right: 120px;
+  z-index: 2;
+}
