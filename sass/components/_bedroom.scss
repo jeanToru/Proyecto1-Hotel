@@ -1,4 +1,4 @@
-.bedroom {
+.bedRoom {
 
   background-color: $ligth;
   width: 100%;
@@ -8,8 +8,35 @@
     width: 100%;
   }
 
+  .bedRooms {
+    float: left;
+    overflow: hidden;
+  }
+
+  .roomList {
+    display: flex;
+    float: left;
+    width: 1198px;
+  }
+
+  .cardBedroom {
+    margin-left: 308px;
+  }
+
+  .arrowRoom {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 160px;
+  }
+
   .cardRoom {
+    display: inline flow-root;
     width: 390px;
+  }
+
+  .cardRoom + .cardRoom {
+    margin-left: 14px;
   }
 
   h2 {
@@ -23,6 +50,7 @@
     color: $navyBlue;
     font-family: $titles;
     font-size: 20px;
+    font-weight: 500;
     line-height: 30px;
     width: 280px;
   }
@@ -31,17 +59,25 @@
     color: $salmon;
     font-family: $titles;
     font-size: 20px;
-    line-height: 30px;
     float: left;
+    line-height: 30px;
+    margin-top: -50px;
+    margin-left: 338px;
   }
 
   p {
     color: $salmon;
     font-family: $titles;
     font-size: 16px;
-    line-height: 30px;
     float: left;
+    line-height: 30px;
+    margin-top: -86px;
+    margin-left: 350px;
   }
 
+}
+
+.hide {
+  margin-left: -67.55%;
 }
 
