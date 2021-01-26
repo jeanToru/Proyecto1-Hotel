@@ -338,6 +338,9 @@ p {
 .h4-bedroom {
   color: #F89345; }
 
+.salmon {
+  color: #F89345; }
+
 .wrapper {
   background-color: #EFF0EF;
   height: 100%;
@@ -379,7 +382,7 @@ p {
     right: 30px; }
 
 .footer-top {
-  top: 2500px; }
+  top: 2600px; }
 
 button {
   cursor: pointer;
@@ -496,7 +499,7 @@ button {
 
 /*arrows*/
 .arrows img {
-  width: 5.3%; }
+  width: 5%; }
 
 #arrow1 {
   position: absolute;
@@ -509,6 +512,9 @@ button {
   top: 360px;
   right: 5%;
   z-index: 2; }
+
+.js-content-hidden {
+  display: none; }
 
 .navegation a {
   color: #000;
@@ -523,6 +529,7 @@ button {
     color: #F89345; }
 
 .navegation {
+  margin-top: 50px;
   margin-bottom: 50px; }
   .navegation img {
     margin-left: 1%;
@@ -610,66 +617,62 @@ img {
 
 .bedRoom {
   background-color: #FFFFFF;
+  margin-bottom: 40px;
   width: 100%; }
-  .bedRoom .imageRoom {
-    border-radius: 50px 0px 0px 0px;
-    width: 100%; }
-  .bedRoom .bedRooms {
-    float: left;
-    overflow: hidden; }
-  .bedRoom .roomList {
-    display: flex;
-    float: left;
-    width: 1198px; }
-  .bedRoom .cardBedroom {
-    margin-left: 308px; }
-  .bedRoom .arrowRoom {
-    float: left;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding-top: 160px; }
-  .bedRoom .cardRoom {
-    display: inline flow-root;
-    width: 390px; }
-  .bedRoom .cardRoom + .cardRoom {
-    margin-left: 14px; }
   .bedRoom h2 {
-    color: #AC3501;
-    font-family: "Poppins", sans-serif;
-    font-size: 50px;
     margin-left: 350px; }
   .bedRoom h4 {
-    color: #121215;
-    font-family: "Poppins", sans-serif;
-    font-size: 20px;
     font-weight: 500;
     line-height: 30px;
     width: 280px; }
+  .bedRoom p {
+    float: left;
+    line-height: 30px;
+    margin-top: -86px;
+    margin-left: 350px; }
   .bedRoom .price {
-    color: #F89345;
-    font-family: "Poppins", sans-serif;
-    font-size: 20px;
     float: left;
     line-height: 30px;
     margin-top: -50px;
     margin-left: 338px; }
-  .bedRoom p {
-    color: #F89345;
-    font-family: "Poppins", sans-serif;
-    font-size: 16px;
-    float: left;
-    line-height: 30px;
-    float: left; 
-    margin-top: -86px;
-    margin-left: 350px; }
+
+.imageRoom {
+  border-radius: 50px 0px 0px 0px;
+  width: 100%; }
+
+.bedRooms {
+  float: left;
+  overflow: hidden; }
+
+.roomList {
+  display: flex;
+  float: left;
+  width: 1198px; }
+
+.cardBedroom {
+  margin-left: 10%; }
+
+.arrowRoom {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 160px; }
+
+.cardRoom {
+  display: inline flow-root;
+  width: 390px; }
+
+.cardRoom + .cardRoom {
+  margin-left: 14px; }
 
 .hide {
   margin-left: -67.55%; }
 
 .hotels {
   display: inline-block;
-  width: 390px;
-  height: 430px; }
+  height: 430px;
+  margin-bottom: 70px;
+  width: 390px; }
 
 .hotels + .hotels {
   margin-left: 11px; }
@@ -682,3 +685,17 @@ img {
 
 .content-cardSmall button {
   margin-left: 26%; }
+
+/*card large*/
+.card-large {
+  display: inline-block;
+  height: 600px;
+  margin-bottom: 70px;
+  position: relative;
+  width: 390px; }
+  .card-large button {
+    position: absolute;
+    right: 0; }
+
+.card-large + .card-large {
+  margin-left: 11px; }

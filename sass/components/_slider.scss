@@ -37,17 +37,18 @@
     background-color: $salmon;
     border-radius: 15px; }
     button:hover {
-      background-color: #8a8282; }
+      background-color: #8a8282;
+    }
 }
 
 .dot-active {
-  background-color: $ligth; }
+  background-color: $ligth;
+}
 
 /*arrows*/
-
 .arrows {
   img {
-    width: 5.3%;
+    width: 5%;
   }
 }
 #arrow1 {
