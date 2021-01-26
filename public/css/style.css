@@ -354,30 +354,32 @@ p {
   right: 50px;
   z-index: 3; }
 
-.unic-2 {
-  margin-top: 2500px;
-  position: absolute;
-  z-index: 3; }
-
 .header {
   background-color: rgba(43, 48, 22, 0.7);
   position: fixed;
-  width: 100%; }
+  width: 100%;
+  z-index: 4; }
 
 .logo {
   float: left;
   margin-top: 10px;
-  width: 70%; }
+  margin-left: 4%;
+  width: 66%; }
 
 .footer {
   background-color: #101304;
-  padding: 30px; }
+  padding: 30px;
+  position: relative;
+  z-index: 3; }
   .footer p {
     color: #FFFFFF;
     display: inline-block;
     margin: 0;
     position: absolute;
     right: 30px; }
+
+.footer-top {
+  top: 2500px; }
 
 button {
   cursor: pointer;
@@ -417,14 +419,36 @@ button {
     text-decoration: none;
     color: #FFFFFF; }
 
-h1 {
-  color: #FFFFFF;
-  font-family: "Rammetto One", cursive;
-  font-size: 65px;
-  left: 510px;
-  position: absolute;
-  top: 650px;
-  z-index: 2; }
+.banner {
+  background-size: cover;
+  width: 100%; }
+  .banner h1 {
+    display: inline-block;
+    margin: 350px auto 30px 50px; }
+
+#banner-index {
+  background-image: url("../../img/mini-banner-home.jpg"); }
+
+#banner-destinations {
+  background-image: url("../../img/destinations-banner.jpg"); }
+
+#banner-sheraton {
+  background-image: url("../../img/sheraton-banner.jpg"); }
+
+#banner-mandarinoriental {
+  background-image: url("../../img/mandarinoriental-banner.jpg"); }
+
+#banner-hilton {
+  background-image: url("../../img/hilton-banner.jpg"); }
+
+#banner-japan {
+  background-image: url("../../img/japan-banner.jpg"); }
+
+#banner-newZealand {
+  background-image: url("../../img/newZealand-banner.jpg"); }
+
+#banner-russia {
+  background-image: url("../../img/russia-banner.jpg"); }
 
 .container-slide {
   margin: 0;
@@ -439,13 +463,18 @@ h1 {
   .image-slide img {
     max-width: 100%;
     width: 100%; }
+  .image-slide h1 {
+    left: 22%;
+    position: absolute;
+    top: 500px;
+    z-index: 2; }
 
 .slide-dot {
   width: 13%;
-  left: 850px;
+  left: 48%;
   z-index: 5;
   position: absolute;
-  top: 790px; }
+  top: 630px; }
   .slide-dot button {
     float: left;
     margin-right: 10px;
@@ -466,13 +495,13 @@ h1 {
 #arrow1 {
   position: absolute;
   top: 360px;
-  left: 120px;
+  left: 5%;
   z-index: 2; }
 
 #arrow2 {
   position: absolute;
   top: 360px;
-  right: 120px;
+  right: 5%;
   z-index: 2; }
 
 .navegation span a {
@@ -598,34 +627,3 @@ img {
     font-size: 16px;
     line-height: 30px;
     float: left; }
-
-.banner {
-  background-size: cover;
-  width: 100%; }
-  .banner h1 {
-    display: inline-block;
-    margin: 350px auto 30px 50px; }
-
-#banner-index {
-  background-image: url("../../img/mini-banner-home.jpg"); }
-
-#banner-destinations {
-  background-image: url("../../img/destinations-banner.jpg"); }
-
-#banner-sheraton {
-  background-image: url("../../img/sheraton-banner.jpg"); }
-
-#banner-mandarinoriental {
-  background-image: url("../../img/mandarinoriental-banner.jpg"); }
-
-#banner-hilton {
-  background-image: url("../../img/hilton-banner.jpg"); }
-
-#banner-japan {
-  background-image: url("../../img/japan-banner.jpg"); }
-
-#banner-newZealand {
-  background-image: url("../../img/newZealand-banner.jpg"); }
-
-#banner-russia {
-  background-image: url("../../img/russia-banner.jpg"); }
