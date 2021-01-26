@@ -4,7 +4,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jungle</title>
+    <title>Destiny</title>
     <link rel="stylesheet" href="public/css/style.css">
   </head>
 
@@ -24,45 +24,39 @@
       <!--Slider-->
       <div class="container-slide">
         <!--FLECHAS-->
-        <div>
-          <a href="#slider-1"><img id="arrow1" src="" alt="arrow-left"></a>
-          <a href="#slider-2"><img id="arrow2" src="" alt="arrow-right"></a>
+        <div class="arrows">
+          <a href="#slider-1"><img id="arrow1" src="img/left-arrow-slider.png" alt="arrow-left"></a>
+          <a href="#slider-2"><img id="arrow2" src="img/right-arrow-slider.png" alt="arrow-right"></a>
         </div>
         <!--Slide #1-->
-        <div id="slider-2" class="box-slide">
+        <div class="image-slide">
           <h1>Explore the world</h1>
-          <div class="image-slide">
-            <!--Primera imagen-->
-            <img src="" alt="">
-          </div>
+          <!--Primera imagen-->
+          <img src="img/slider-3.jpg" alt="landscape">
         </div>
         <!--Slide #2-->
-        <div id="slider-1" class="box-slide">
+        <div class="image-slide">
           <h1>Explore the world</h1>
-          <div class="image-slide">
-            <!--Segunda imagen-->
-            <img src="" alt="">
-          </div>
+          <!--Segunda imagen-->
+          <img src="img/slider-2.jpg" alt="landscape">
         </div>
         <!--Slide #3-->
-        <div id="slider-1" class="box-slide">
+        <div class="image-slide">
           <h1>Explore the world</h1>
-          <div class="image-slide">
-            <!--Tercera imagen-->
-            <img src="" alt="">
-          </div>
+          <!--Tercera imagen-->
+          <img src="img/slider-1.jpg" alt="landscape">
+        </div>
+        <!--dots-->
+        <div class="slide-dot clearfix">
+          <button class="dot dot-active"></button>
+          <button class="dot"></button>
+          <button class="dot"></button>
         </div>
       </div>
 
-      <!--dots-->
-      <div class="slide-dot clearfix">
-        <button class="dot dot-active"></button>
-        <button class="dot"></button>
-        <button class="dot"></button>
-      </div>
 
       <!--wrapper content-->
-      <div class="wrapper-content">
+      <div class="wrapper-content unic">
         <!--2DA EXPLORE seccion cards-->
         <h2>The most visited destinations are here</h2>
         <div class="container-cards">
@@ -89,8 +83,7 @@
           </div>
         </div>
         <!--3RA seccion BANNER-->
-        <div class="banner">
-          <img src="" alt="">
+        <div id="banner-index" class="banner">
           <h2>CApe town</h2>
           <p>Gregory Lane</p>
         </div>
@@ -100,28 +93,33 @@
         <div id="prefooter">
           <div class="hotels">
             <img src="" alt="">
-            <h2>Sheraton</h2>
-            <p>New York Times Square Hotel</p>
-            <button class="orange-btn">Go</button>
+            <div class="content">
+              <h2>Sheraton</h2>
+              <p>New York Times Square Hotel</p>
+              <button class="orange-btn"><a href="hotelHilton.html">Go</a></button>
+            </div>
           </div>
           <div class="hotels">
             <img src="" alt="">
             <h2>Sheraton</h2>
             <p>New York Times Square Hotel</p>
-            <button class="orange-btn">Go</button>
+            <button class="orange-btn"><a href="hotelMandarinoriental.html">Go</a></button>
           </div>
           <div class="hotels">
             <img src="" alt="">
             <h2>Sheraton</h2>
             <p>New York Times Square Hotel</p>
-            <button class="orange-btn">Go</button>
+            <button class="orange-btn"><a href="hotelSheraton.html">Go</a></button>
           </div>
         </div>
       </div>
+
     </div>
+
     <!--footer General-->
-    <div class="footer">
+    <div class="footer footer-top">
       <p>Copyright © Jean Carlo Toruño | Jose Daniel Ramos | Karen Méndez | Vieyra Ureña</p>
     </div>
+
   </body>
 </html>

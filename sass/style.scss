@@ -1,9 +1,12 @@
-@import "./typographies/font";
 @import "./library/normalize";
 @import "./colors/colors";
+@import "./typographies/font";
 @import "./partials/globals";
-@import "components/btns";
-@import "components/navegation";
+@import "./components/btns";
+@import "./components/banners";
+@import "./components/slider";
+@import "./components/navegation";
 @import "./components/tickets";
 @import "./components/gallery";
 @import "./components/bedroom";
+

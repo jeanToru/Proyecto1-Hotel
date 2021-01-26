@@ -1,0 +1,65 @@
+.container-slide {
+  margin: 0;
+  position: relative;
+}
+
+.image-slide {
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0px;
+  z-index: 1;
+
+  img {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  h1 {
+    left: 22%;
+    position: absolute;
+    top: 500px;
+    z-index: 2;
+  }
+}
+
+.slide-dot {
+  width: 13%;
+  left: 48%;
+  z-index: 5;
+  position: absolute;
+  top: 630px;
+  button {
+    float: left;
+    margin-right: 10px;
+    border-style: none;
+    padding: 8px;
+    background-color: $salmon;
+    border-radius: 15px; }
+    button:hover {
+      background-color: #8a8282; }
+}
+
+.dot-active {
+  background-color: $ligth; }
+
+/*arrows*/
+
+.arrows {
+  img {
+    width: 5.3%;
+  }
+}
+#arrow1 {
+  position: absolute;
+  top: 360px;
+  left: 5%;
+  z-index: 2;
+}
+
+#arrow2 {
+  position: absolute;
+  top: 360px;
+  right: 5%;
+  z-index: 2;
+}
