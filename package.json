@@ -17,7 +17,9 @@
     "eslint-plugin-import": "^2.22.1",
     "eslint-watch": "^7.0.0",
     "live-server": "^1.2.1",
-    "livereload": "^0.9.1",
+    "livereload": "^0.9.1"
+  },
+  "dependencies": {
     "node-sass": "^4.14.1"
   }
 }
