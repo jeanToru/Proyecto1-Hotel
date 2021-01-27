@@ -352,7 +352,7 @@ p {
 
 .unic {
   left: 50px;
-  margin-top: 900px;
+  margin-top: 580px;
   position: absolute;
   right: 50px;
   z-index: 3; }
@@ -485,9 +485,8 @@ button {
 .slide-dot {
   left: 48%;
   position: absolute;
-  top: 630px;
   width: 13%;
-  z-index: 5; }
+  z-index: 8; }
 
 .dot {
   background-color: #F89345;
@@ -520,6 +519,13 @@ button {
 
 .js-content-hidden {
   display: none; }
+
+.slider-content {
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 250px; }
+  .slider-content h1 {
+    margin: 0; }
 
 .navegation a {
   color: #000;
