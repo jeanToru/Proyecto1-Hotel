@@ -646,8 +646,6 @@ img {
   background-color: #FFFFFF;
   margin-bottom: 40px;
   width: 100%; }
-  .bedRoom h2 {
-    margin-left: 350px; }
   .bedRoom h4 {
     font-weight: 500;
     line-height: 30px;
@@ -662,10 +660,9 @@ img {
     line-height: 30px;
     margin-top: -50px;
     margin-left: 338px; }
-
-.imageRoom {
-  border-radius: 50px 0px 0px 0px;
-  width: 100%; }
+  .bedRoom .imageRoom {
+    border-radius: 50px 0px 0px 0px;
+    width: 100%; }
 
 .bedRooms {
   float: left;
@@ -675,9 +672,6 @@ img {
   display: flex;
   float: left;
   width: 1198px; }
-
-.cardBedroom {
-  margin-left: 10%; }
 
 .arrowRoom {
   float: left;

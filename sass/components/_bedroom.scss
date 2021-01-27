@@ -3,10 +3,6 @@
   margin-bottom: 40px;
   width: 100%;
 
-  h2 {
-    margin-left: 350px;
-  }
-
   h4 {
     font-weight: 500;
     line-height: 30px;
@@ -26,11 +22,11 @@
     margin-top: -50px;
     margin-left: 338px;
   }
-}
 
-.imageRoom {
-  border-radius: 50px 0px 0px 0px;
-  width: 100%;
+  .imageRoom {
+    border-radius: 50px 0px 0px 0px;
+    width: 100%;
+  }
 }
 
 .bedRooms {
@@ -42,10 +38,6 @@
   display: flex;
   float: left;
   width: 1198px;
-}
-
-.cardBedroom {
-  margin-left: 10%;
 }
 
 .arrowRoom {
