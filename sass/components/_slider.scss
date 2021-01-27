@@ -26,9 +26,9 @@
 .slide-dot {
   left: 48%;
   position: absolute;
-  top: 630px;
+  // top: 630px;
   width: 13%;
-  z-index: 5;
+  z-index: 8;
 }
 
 .dot{
@@ -70,4 +70,14 @@
 
 .js-content-hidden {
   display: none;
+}
+
+
+.slider-content {
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 250px;
+  h1 {
+    margin: 0;
+  }
 }
