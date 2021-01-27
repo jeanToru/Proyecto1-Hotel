@@ -1,20 +1,24 @@
-.gallery{
+.gallery {
   width: 610px;
 }
+
 .gallery-content{
   height: 444px;
   margin-bottom: 20px;
   width: 600px;
 }
-#big-image{
+
+#big-image {
   border-radius: 2%;
   height: 444px;
   width: 100%;
 }
-.wrapper-gallery{
+
+.wrapper-gallery {
   margin-left: 0px;
 }
-.ocultar{
+
+.ocultar {
   margin-left: -68.8%;
 }
 .gallery-list {
@@ -24,10 +28,12 @@
   padding: 0px;
   width: 498px;
 }
-.gallery-list li{
+
+.gallery-list li {
   height: 100%;
   width: 250px;
 }
+
 .gallery-list li + li{
   margin-left: 15px;
 }
@@ -38,44 +44,52 @@
   display: table;
 }
 
-.gallery-list-img img{
+.gallery-list-img img {
   height: 88px;
   width: 156px;
 }
 
-img{
+img {
   border-radius: 10px;
 }
-.gallery-prev{
+
+.gallery-prev {
   float: left;
   margin: 0px;
   overflow: hidden;
   padding: 0px;
 }
-.flechas{
+
+.flechas {
   float: left;
-  margin: 4px;
+  margin: 15px 5px 0px 5px;
+  cursor: pointer;
 }
-.gallery-js{
+
+.gallery-js {
   float: left;
   padding-left: 80px;
 }
-.info-destiny{
+
+.info-destiny {
   float: left;
   width: 490px;
 }
-.info-destiny p{
-  padding-top: 10px;
+
+.info-destiny p {
   padding-left: 40px;
   padding-right: 40px;
+  padding-top: 10px;
 }
-.content-destinatinos{
-  padding-bottom: 40px;
-  background-color: $ligth;
+
+.content-destinatinos {
+  background-color: $light;
   margin-bottom: 50px;
+  padding-bottom: 40px;
 }
-.content-destinatinos h2{
-  padding-top: 60px;
-  padding-left: 80px;
+
+.content-destinatinos h2 {
   padding-bottom: 30px;
+  padding-left: 80px;
+  padding-top: 60px;
 }

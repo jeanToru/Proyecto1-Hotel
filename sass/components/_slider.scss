@@ -24,25 +24,28 @@
 }
 
 .slide-dot {
-  width: 13%;
   left: 48%;
-  z-index: 5;
   position: absolute;
   top: 630px;
-  button {
-    float: left;
-    margin-right: 10px;
-    border-style: none;
-    padding: 8px;
-    background-color: $salmon;
-    border-radius: 15px; }
-    button:hover {
-      background-color: #8a8282;
-    }
+  width: 13%;
+  z-index: 5;
+}
+
+.dot{
+  background-color: $salmon;
+  border-style: none;
+  border-radius: 50px;
+  float: left;
+  margin-right: 10px;
+  padding: 8px;
+
+  &:hover {
+    background-color: $gray;
+  }
 }
 
 .dot-active {
-  background-color: $ligth;
+  background-color: $light;
 }
 
 /*arrows*/
@@ -52,9 +55,9 @@
   }
 }
 #arrow1 {
+  left: 5%;
   position: absolute;
   top: 360px;
-  left: 5%;
   z-index: 2;
 }
 
